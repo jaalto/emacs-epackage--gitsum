@@ -1,0 +1,39 @@
+Package: gitsum
+Section: extensions
+License: GPL-2+
+Depends: emacs (>= 23)
+Status: stable unmaintained
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Christian Neukirchen <chneukirchen@gmail.com>
+Upstream-Bugs: https://github.com/chneukirchen/gitsum/issues
+Vcs-Type: git
+Vcs-Url: git://github.com/chneukirchen/gitsum.git
+Vcs-Browser: https://github.com/chneukirchen/gitsum
+Homepage: https://github.com/chneukirchen/gitsum
+Wiki: http://www.emacswiki.org/emacs/
+Commentary:
+X-Comment:
+ Author's homepage http://purl.org/net/chneukirchen
+Description: perform partial commits into the Git repository
+ A darcsum feelalike for Git provides a mode to do interactive partial
+ commits. User should run `M-x gitsum' from buffer with file, registered in
+ the Git repository. And after execution of this command, a new buffer will
+ created, containing all changes, made in current repository.
+ .
+ Run `M-x gitsum' inside a Git repository and kill everything you don't
+ want to commit with `k'. You can navigate easily between hunks with `n'
+ and `p' and between files with `N' and `P'. A whole file can be killed
+ with `K'. If you want to refine the patch, you can split it with `C-c
+ C-s'. If you toggle read-only with `C-x C-q', you can edit everything
+ freely (be careful!).
+ .
+ If you are ready, commit the patch with `C-c C-c' or just `c'. Enter the
+ message and press `C-c C-c' again.
+
+ Note: If you want to add files in the commit, use `M-x git-status' from
+ Official Git distribution's (contrib) git.el, add the files with `a', then
+ switch to gitsum with `s'. You can only add files as a whole. You need
+ git.el from the git repository then.
+ .
+ Note: 2013-06-03 the code hasn't been touched since 2008.
