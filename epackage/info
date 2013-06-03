@@ -17,16 +17,14 @@ X-Comment:
  Author's homepage http://purl.org/net/chneukirchen
 Description: perform partial commits into the Git repository
  A darcsum feelalike for Git provides a mode to do interactive partial
- commits. User should run `M-x gitsum' from buffer with file, registered in
- the Git repository. And after execution of this command, a new buffer will
- created, containing all changes, made in current repository.
+ commits. After running `M-x gitsum' from git controlled buffer, a new
+ buffer will created, containing all changes, made in current repository.
  .
- Run `M-x gitsum' inside a Git repository and kill everything you don't
- want to commit with `k'. You can navigate easily between hunks with `n'
- and `p' and between files with `N' and `P'. A whole file can be killed
- with `K'. If you want to refine the patch, you can split it with `C-c
- C-s'. If you toggle read-only with `C-x C-q', you can edit everything
- freely (be careful!).
+ You can kill everything you don't want to commit with `k', navigate
+ between hunks with `n' and `p' and between files with `N' and `P'. A whole
+ file can be killed with `K'. To refine the patch, split it with `C-c C-s'.
+ If you toggle read-only with `C-x C-q', you can edit everything freely; be
+ careful about it.
  .
  If you are ready, commit the patch with `C-c C-c' or just `c'. Enter the
  message and press `C-c C-c' again.
