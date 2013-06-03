@@ -5,7 +5,7 @@ Depends: emacs (>= 23)
 Status: stable unmaintained
 Maintainer: Jari Aalto <jari.aalto@cante.net>
 Bugs:
-Upstream: Christian Neukirchen <chneukirchen@gmail.com>
+Upstream: Christian Neukirchen (no code maintenence) <chneukirchen@gmail.com>
 Upstream-Bugs: https://github.com/chneukirchen/gitsum/issues
 Vcs-Type: git
 Vcs-Url: git://github.com/chneukirchen/gitsum.git
@@ -14,7 +14,8 @@ Homepage: https://github.com/chneukirchen/gitsum
 Wiki: http://www.emacswiki.org/emacs/
 Commentary:
 X-Comment:
- Author's homepage http://purl.org/net/chneukirchen
+ Author's homepage <http://purl.org/net/chneukirchen>.
+ 2013-06-03 Dead upstream https://github.com/chneukirchen/gitsum/issues/1
 Description: perform partial commits into the Git repository
  A darcsum feelalike for Git provides a mode to do interactive partial
  commits. After running `M-x gitsum' from git controlled buffer, a new
