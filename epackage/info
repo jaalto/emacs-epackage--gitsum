@@ -36,4 +36,5 @@ Description: perform partial commits into the Git repository
  switch to gitsum with `s'. You can only add files as a whole. You need
  git.el from the git repository then.
  .
+ See http://chneukirchen.org/blog/archive/2008/02/introducing-gitsum.html
  Note: 2013-06-03 the code hasn't been touched since 2008.
